@@ -2,9 +2,11 @@ from flask import Flask, jsonify, request
 from lib.rmbg import remove_background
 from lib.file import allowed_file, ALlOWED_EXTENSIONS as Extensions, MAX_CONTENT_LENGTH as max_content_length
 from PIL import Image
+from flask_cors import CORS
 
 app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = max_content_length
+CORS(app)
 
 @app.route('/api/remove', methods=['POST'])
 def post_remove_bg():
