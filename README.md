@@ -48,7 +48,7 @@ A lightweight, high-performance REST API built with Flask that automatically rem
 
     Content-Type: multipart/form-data
 
-    Body: * file: The image file you want to process (PNG, JPG, JPEG).
+    Body: file: The image file you want to process (PNG, JPG, JPEG).
 
     Example Response (JSON format if using Base64 output):
     ```bash:
