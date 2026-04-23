@@ -30,8 +30,8 @@ A lightweight, high-performance REST API built with Flask that automatically rem
 3. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
-
-(Note: The first time you run the application, rembg will automatically download the pre-trained AI model (u2net.onnx) which is around ~170MB).
+    ```
+    (Note: The first time you run the application, rembg will automatically download the pre-trained AI model (u2net.onnx) which is             around ~170MB).
 
 4. **Run the Server:**
     ```bash
@@ -48,7 +48,7 @@ A lightweight, high-performance REST API built with Flask that automatically rem
 
     Content-Type: multipart/form-data
 
-    Body: * image: The image file you want to process (JPG, PNG).
+    Body: * file: The image file you want to process (PNG, JPG, JPEG).
 
     Example Response (JSON format if using Base64 output):
     ```bash:
