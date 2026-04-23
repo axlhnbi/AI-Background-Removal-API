@@ -31,7 +31,7 @@ A lightweight, high-performance REST API built with Flask that automatically rem
     ```bash
     pip install -r requirements.txt
 
-    (Note: The first time you run the application, rembg will automatically download the pre-trained AI model (u2net.onnx) which is around ~170MB).
+(Note: The first time you run the application, rembg will automatically download the pre-trained AI model (u2net.onnx) which is around ~170MB).
 
 4. **Run the Server:**
     ```bash
@@ -42,7 +42,7 @@ A lightweight, high-performance REST API built with Flask that automatically rem
 1. **Remove Background**
     Removes the background from an uploaded image file.
 
-    Endpoint: /api/remove-bg
+    Endpoint: /api/remove
 
     Method: POST
 
