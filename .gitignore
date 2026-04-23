@@ -1,0 +1,37 @@
+# Ignore python cache/python's compiled file
+__pycache__/
+*.py[cod]
+*$py.class
+lib/__pycache__/
+
+# Ignore instance Flask
+instance/
+.webassets-cache
+
+# Ignore venv file
+venv/
+env/
+ENV/
+.venv
+
+.env
+.env.local
+.env.*
+
+# Ignore local's database
+.sqlite3
+.db
+
+# Ignore log file
+.log
+
+#Ignore OS & Text Editor / IDE
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VS Code & PyCharm
+.vscode/
+.idea/
