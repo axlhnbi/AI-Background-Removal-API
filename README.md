@@ -19,27 +19,27 @@ A lightweight, high-performance REST API built with Flask that automatically rem
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/bg-removal-api.git](https://github.com/yourusername/bg-removal-api.git)
+   git clone https://github.com/axlhnbi/AI-Background-Removal-API.git
    cd bg-removal-api
 
-2. **Create a Virtual Environment (Recommended):
+2. **Create a Virtual Environment (Recommended):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-3. **Install Dependencies:
+3. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
 
     (Note: The first time you run the application, rembg will automatically download the pre-trained AI model (u2net.onnx) which is around ~170MB).
 
-4. **Run the Server:
+4. **Run the Server:**
     ```bash
     python app.py
 
 ## API Documentation
 
-1. **Remove Background
+1. **Remove Background**
     Removes the background from an uploaded image file.
 
     Endpoint: /api/remove-bg
